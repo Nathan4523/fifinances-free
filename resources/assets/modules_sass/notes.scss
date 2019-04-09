@@ -1,0 +1,218 @@
+//main
+#main_annotations {
+    #table_coast_filter {
+        label {
+            font-family: 'IBM Plex Serif', serif !important;
+            font-size: 18px;
+        }
+        font-family: 'IBM Plex Serif',
+        serif !important;
+        font-size: 18px;
+        padding-top: 25px;
+    }
+    #table_coast {
+        font-family: 'IBM Plex Serif', serif !important;
+        color: $text;
+        text-align: center;
+        width: 90% !important;
+        .btn_edit {
+            font-size: 13px;
+            color: $blue;
+            &:hover {
+                color: $blue_dark;
+                transition: $btn_transition;
+                text-decoration: none;
+            }
+        }
+        td {
+            text-align: left;
+        }
+    }
+    .dataTables_wrapper {
+        padding-bottom: 45px;
+        margin: auto !important;
+        width: 90% !important;
+    }
+    .dataTables_length {
+        display: none;
+    }
+    .dataTables_info {
+        display: none;
+    }
+    div#table_coast_paginate {
+        padding-top: 15px;
+        padding-right: 25px;
+    }
+    a.paginate_button.current {
+        border: 1px solid #cecece;
+        border-radius: 23px;
+    }
+    #delete_note {
+        background-color: transparent;
+        border: none;
+    }
+}
+
+//edit
+#edit_annotations {
+    #form_update {
+        .div_inputs {
+            padding: 0 80px;
+            .form-group {
+                margin: auto;
+                input {
+                    color: $text;
+                    font-size: 16px;
+                    margin-top: 40px;
+                    &::-webkit-input-placeholder {
+                        /* WebKit browsers */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+                    &:-moz-placeholder {
+                        /* Mozilla Firefox 4 to 18 */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+                    &::-moz-placeholder {
+                        /* Mozilla Firefox 19+ */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+                    &:-ms-input-placeholder {
+                        /* Internet Explorer 10+ */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+                }
+                textarea {
+                    font-size: 16px;
+                    color: $text;
+                    margin-top: 40px;
+                    line-height: 0.9;
+                    &::-webkit-input-placeholder {
+                        /* WebKit browsers */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+                    &:-moz-placeholder {
+                        /* Mozilla Firefox 4 to 18 */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+                    &::-moz-placeholder {
+                        /* Mozilla Firefox 19+ */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+                    &:-ms-input-placeholder {
+                        /* Internet Explorer 10+ */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+                }
+                .btn_enviar {
+                    font-size: 15px;
+                    color: $white;
+                    background-color: $blue;
+                    border: 1px solid $blue;
+                    border-radius: 7px;
+                    padding: 7px 35px;
+                    margin: 40px 0;
+                }
+            }
+        }
+        .btn-group.bootstrap-select.form-control.show-tick {
+            margin-top: 40px;
+        }
+        button.btn.dropdown-toggle.btn-default {
+            padding-left: 0;
+            span.filter-option.pull-left {
+                color: $text;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+//add
+#add_annotations {
+    #form_update {
+        .div_inputs {
+            padding: 0 80px;
+            .form-group {
+                margin: auto;
+                input {
+                    color: $text;
+                    font-size: 16px;
+                    margin-top: 40px;
+                    &::-webkit-input-placeholder {
+                        /* WebKit browsers */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+                    &:-moz-placeholder {
+                        /* Mozilla Firefox 4 to 18 */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+                    &::-moz-placeholder {
+                        /* Mozilla Firefox 19+ */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+                    &:-ms-input-placeholder {
+                        /* Internet Explorer 10+ */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+                }
+                textarea {
+                    font-size: 16px;
+                    color: $text;
+                    margin-top: 40px;
+                    line-height: 0.9;
+                    &::-webkit-input-placeholder {
+                        /* WebKit browsers */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+                    &:-moz-placeholder {
+                        /* Mozilla Firefox 4 to 18 */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+                    &::-moz-placeholder {
+                        /* Mozilla Firefox 19+ */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+                    &:-ms-input-placeholder {
+                        /* Internet Explorer 10+ */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+                }
+                .btn_enviar {
+                    font-size: 15px;
+                    color: $white;
+                    background-color: $blue;
+                    border: 1px solid $blue;
+                    border-radius: 7px;
+                    padding: 7px 35px;
+                    margin: 40px 0;
+                }
+            }
+        }
+        .btn-group.bootstrap-select.form-control.show-tick {
+            margin-top: 40px;
+        }
+        button.btn.dropdown-toggle.btn-default {
+            padding-left: 0;
+            span.filter-option.pull-left {
+                color: $text;
+                font-size: 16px;
+            }
+        }
+    }
+}

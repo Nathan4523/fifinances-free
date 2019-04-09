@@ -1,0 +1,78 @@
+#modal_my_profile {
+    .modal-title{
+        width: 50%;
+        float: left;
+    }
+
+    #form_support {
+        .div_inputs {
+            padding: 0 80px;
+            text-align: center;
+            .form-group {
+                margin: auto;
+                input {
+                    color: $text;
+                    font-size: 16px;
+                    margin-top: 40px;
+                    text-align: center;
+                    &::-webkit-input-placeholder {
+                        /* WebKit browsers */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+                    &:-moz-placeholder {
+                        /* Mozilla Firefox 4 to 18 */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+                    &::-moz-placeholder {
+                        /* Mozilla Firefox 19+ */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+                    &:-ms-input-placeholder {
+                        /* Internet Explorer 10+ */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+                }
+                textarea {
+                    font-size: 16px;
+                    color: $text;
+                    margin-top: 40px;
+                    line-height: 0.9;
+                    text-align: center;
+                    &::-webkit-input-placeholder {
+                        /* WebKit browsers */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+                    &:-moz-placeholder {
+                        /* Mozilla Firefox 4 to 18 */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+                    &::-moz-placeholder {
+                        /* Mozilla Firefox 19+ */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+                    &:-ms-input-placeholder {
+                        /* Internet Explorer 10+ */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+                }
+                .btn_enviar {
+                    font-size: 15px;
+                    color: $white;
+                    background-color: $blue;
+                    border: 1px solid $blue;
+                    border-radius: 7px;
+                    padding: 7px 35px;
+                    margin: 40px 0;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+#reports {
+    .panel_color_blue {
+        color: $white;
+        .panel-heading {
+            background: $blue;
+        }
+    }
+    .card {
+        border-radius: 18px;
+        min-height: initial;
+        .header {
+            h2 {
+                text-align: center;
+                color: $text;
+            }
+        }
+        .body {
+            padding-bottom: 100%;
+        }
+    }
+}

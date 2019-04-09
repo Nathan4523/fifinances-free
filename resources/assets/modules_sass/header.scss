@@ -1,0 +1,139 @@
+#navbar {
+    background-color: $blue;
+    height: 70px;
+    .navbar-brand {
+        padding: 0;
+    }
+    .logo-header-small {
+        width: 100%;
+        max-width: 60px;
+        margin-top: -5px;
+        margin-left: 78px;
+        @media screen and (max-width: 425px) {
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }
+    .in {
+        text-align: center;
+        background-color: $blue;
+        padding-top: 10px;
+    }
+    .navbar-header .bars {
+        color: $white;
+    }
+    .navbar-nav {
+        .li-calender {
+            a {
+                color: $white;
+                padding: 0;
+                margin-top: 15px;
+                line-height: 1;
+                font-size: 12px;
+                &:hover {
+                    background-color: transparent;
+                    text-decoration: none;
+                    cursor: pointer;
+                    color: $black;
+                    transition: 0.3s;
+                }
+            }
+            color: $white;
+            text-align: center;
+            padding: 0px 44px 0 0;
+            font-size: 12px;
+            line-height: 0;
+            i {
+                font-size: 30px;
+            }
+            @media screen and (max-width: 375px) {
+                padding: 0px 35px 0 0;
+            }
+            @media screen and (max-width: 320px) {
+                padding: 0px 10px 0 0;
+            }
+            &:hover {
+                cursor: pointer;
+                color: $black;
+                transition: 0.3s;
+            }
+        }
+        .li-my-account {
+            a {
+                color: $white;
+                padding: 0;
+                margin-top: 15px;
+                line-height: 1;
+                font-size: 12px;
+                &:hover {
+                    background-color: transparent;
+                    text-decoration: none;
+                    cursor: pointer;
+                    color: $black;
+                    transition: 0.3s;
+                }
+            }
+            color: $white;
+            text-align: center;
+            padding: 0px 44px 0 0;
+            font-size: 12px;
+            line-height: 0;
+            i {
+                font-size: 30px;
+            }
+            @media screen and (max-width: 375px) {
+                padding: 0px 0px 0 0;
+            }
+            &:hover {
+                cursor: pointer;
+                color: $black;
+                transition: 0.3s;
+            }
+        }
+        .li-hours {
+            color: $white;
+            text-align: center;
+            padding: 17px 60px 0 0;
+            font-size: 25px;
+            line-height: 1.5;
+            @media screen and (max-width: 375px) {
+                padding: 17px 32px 0 0;
+            }
+            @media screen and (max-width: 320px) {
+                font-size: 21px;
+                padding: 22px 32px 0 0;
+            }
+        }
+    }
+}
+
+#sidebar-left {
+    .sidebar {
+        width: 288px;
+        .user-info {
+            height: 115px;
+            .name-profile {
+                float: right;
+                padding-left: 25px;
+                color: $white;
+                padding-top: 20px;
+                font-size: 15px;
+            }
+            .email {
+                text-align: center;
+            }
+        }
+        .menu {
+            .list {
+                li {
+                    span {
+                        color: $text;
+                    }
+                    i {
+                        color: $text;
+                    }
+                }
+            }
+        }
+    }
+}

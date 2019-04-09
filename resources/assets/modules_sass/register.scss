@@ -1,0 +1,70 @@
+#screen_login {
+    height: 100vh;
+    .container{
+        #row_top{
+            margin-top: 80px;        
+        }
+    }
+    .card-login {
+        background-color: $grey_login;
+        .logo-login {
+            max-width: 160px;
+            margin: 30px 0;
+        }
+        .card-body {
+            #name {
+                border-radius: 6px 6px 0 0;
+                text-align: center;
+            }
+            #email {
+                border-radius: 0;
+                text-align: center;
+            }
+            #password {
+                border-radius: 0;
+                text-align: center;
+            }
+            #password-confirm {
+                border-radius: 0 0 6px 6px;
+                text-align: center;
+            }
+            .form-control {
+                padding: 25px 10px;
+                color: $text;
+                text-align: center;
+            }
+        }
+        .space_lines {
+            margin: 20px 0;
+            .line_login {
+                border: 1px solid #707070;
+            }
+            .letter_O {
+                color: #707070;
+                font-size: 24px;
+                line-height: 1.7;
+            }
+        }
+        .content_btns {
+            .button_submit {
+                font-size: 13px;
+                color: $white;
+                background-color: $blue;
+                border: 1px solid $blue_dark;
+                padding: 8px 40px;
+                border-radius: 7px;
+                margin-bottom: 20px;
+                &:hover {
+                    background-color: $blue_dark;
+                    transition: $btn_transition;
+                }
+            }
+            .content_button_link {
+                margin-bottom: 27px;
+                a {
+                    color: $color_login_bnt;
+                }
+            }
+        }
+    }
+}

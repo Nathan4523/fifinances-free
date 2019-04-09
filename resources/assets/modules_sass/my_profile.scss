@@ -1,0 +1,110 @@
+#profile {
+    .card {
+        border-radius: 18px;
+        min-height: 745px !important;
+    }
+    .content_title {
+        text-align: center;
+        h2 {
+            color: $text;
+            padding-top: 61px;
+        }
+    }
+    .content_block_img {
+        text-align: center;
+        img {
+            margin-top: 46px;
+            border: 3px solid $blue;
+            border-radius: 36px;
+        }
+        #myFile {
+            margin: auto;
+            margin-top: 19px;
+            padding-left: 50px;
+        }
+    }
+
+    #form_update_photo{
+        #photo_perfil{
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
+        }
+        .div_inputs {
+            padding: 0 80px;
+            text-align: center;
+            .form-group {
+                margin: auto;
+                .btn_enviar {
+                    font-size: 15px;
+                    color: $white;
+                    background-color: $blue;
+                    border: 1px solid $blue;
+                    border-radius: 7px;
+                    padding: 7px 35px;
+                    margin: 40px 0 0;
+                }
+            }
+        }
+    }
+    
+
+    #form_update {
+        .div_inputs {
+            padding: 0 80px;
+            text-align: center;
+            .form-group {
+                margin: auto;
+                input {
+                    color: $text;
+                    font-size: 16px;
+                    margin-top: 40px;
+                    text-align: center;
+                    &::-webkit-input-placeholder {
+                        /* WebKit browsers */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+                    &:-moz-placeholder {
+                        /* Mozilla Firefox 4 to 18 */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+                    &::-moz-placeholder {
+                        /* Mozilla Firefox 19+ */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+                    &:-ms-input-placeholder {
+                        /* Internet Explorer 10+ */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+                }
+                .btn_enviar {
+                    font-size: 15px;
+                    color: $white;
+                    background-color: $blue;
+                    border: 1px solid $blue;
+                    border-radius: 7px;
+                    padding: 7px 35px;
+                    margin: 40px 0;
+                }
+            }
+            .btn_support {
+                color: $red_button;
+                background-color: $white;
+                border: 1px solid $border_color;
+                margin-top: 50px;
+                padding: 10px 15px;
+                border-radius: 7px;
+
+                &:hover{
+                    background-color: $red_button;
+                    color: $white;
+                    transition: $btn_transition;
+                }
+            }
+        }
+    }
+}

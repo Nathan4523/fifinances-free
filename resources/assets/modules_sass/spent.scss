@@ -1,0 +1,330 @@
+//main
+#main_coast {
+    .btn_links_header {
+        text-align: center;
+
+        a {
+            color: $white;
+            background-color: $blue;
+            width: 147px;
+            display: table;
+            margin: auto;
+            padding: 7px 0;
+            border-radius: 7px;
+
+            &:hover {
+                text-decoration: none;
+                background-color: $blue_dark;
+                transition: $btn_transition;
+            }
+        }
+
+        .active {
+            color: $white;
+            background-color: $blue_dark;
+        }
+    }
+
+    #table_coast_filter {
+        label {
+            font-family: 'IBM Plex Serif', serif !important;
+            font-size: 18px;
+        }
+
+        font-family: 'IBM Plex Serif',
+        serif !important;
+        font-size: 18px;
+        padding-top: 25px;
+    }
+
+    #table_coast {
+        font-family: 'IBM Plex Serif', serif !important;
+        color: $text;
+        text-align: center;
+        width: 90% !important;
+
+        .btn_edit {
+            font-size: 13px;
+            color: $blue;
+
+            &:hover {
+                color: $blue_dark;
+                transition: $btn_transition;
+                text-decoration: none;
+            }
+        }
+
+        td {
+            text-align: left;
+
+            .child {}
+        }
+    }
+
+    .dataTables_wrapper {
+        padding-bottom: 45px;
+        margin: auto !important;
+        width: 90% !important;
+    }
+
+    .dataTables_length {
+        display: none;
+    }
+
+    .dataTables_info {
+        display: none;
+    }
+
+    div#table_coast_paginate {
+        padding-top: 15px;
+        padding-right: 25px;
+    }
+
+    a.paginate_button.current {
+        border: 1px solid #cecece;
+        border-radius: 23px;
+    }
+}
+
+//edit
+#edit_coast {
+    #form_update {
+        .div_inputs {
+            padding: 0 80px;
+
+            .form-group {
+                margin: auto;
+
+                input {
+                    color: $text;
+                    font-size: 16px;
+                    margin-top: 40px;
+
+                    &::-webkit-input-placeholder {
+                        /* WebKit browsers */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+
+                    &:-moz-placeholder {
+                        /* Mozilla Firefox 4 to 18 */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+
+                    &::-moz-placeholder {
+                        /* Mozilla Firefox 19+ */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+
+                    &:-ms-input-placeholder {
+                        /* Internet Explorer 10+ */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+                }
+
+                textarea {
+                    font-size: 16px;
+                    color: $text;
+                    margin-top: 40px;
+                    line-height: 0.9;
+
+                    &::-webkit-input-placeholder {
+                        /* WebKit browsers */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+
+                    &:-moz-placeholder {
+                        /* Mozilla Firefox 4 to 18 */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+
+                    &::-moz-placeholder {
+                        /* Mozilla Firefox 19+ */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+
+                    &:-ms-input-placeholder {
+                        /* Internet Explorer 10+ */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+                }
+
+                .btn_enviar {
+                    font-size: 15px;
+                    color: $white;
+                    background-color: $blue;
+                    border: 1px solid $blue;
+                    border-radius: 7px;
+                    padding: 7px 35px;
+                    margin: 40px 0 20px;
+
+                    &:hover {
+                        background-color: $blue_dark;
+                        transition: $btn_transition;
+                    }
+                }
+            }
+        }
+
+        .btn-group.bootstrap-select.form-control.show-tick {
+            margin-top: 40px;
+        }
+
+        button.btn.dropdown-toggle.btn-default {
+            padding-left: 0;
+
+            span.filter-option.pull-left {
+                color: $text;
+                font-size: 16px;
+            }
+        }
+    }
+
+    .form_delete {
+        text-align: center;
+
+        .btn_delete {
+            font-size: 15px;
+            color: $white;
+            background-color: $red_button_submit;
+            border: 1px solid $red_button_submit;
+            border-radius: 7px;
+            padding: 7px 35px;
+            margin: 0px 0 40px;
+
+            &:hover {
+                background-color: $red_btn_hover;
+                transition: $btn_transition;
+            }
+        }
+    }
+}
+
+//add
+#add_coast {
+    .btn_links_header {
+        text-align: center;
+
+        a {
+            color: $white;
+            background-color: $blue;
+            width: 147px;
+            display: table;
+            margin: auto;
+            padding: 7px 0;
+            border-radius: 7px;
+
+            &:hover {
+                text-decoration: none;
+                background-color: $blue_dark;
+                transition: $btn_transition;
+            }
+        }
+
+        .active {
+            color: $white;
+            background-color: $blue_dark;
+        }
+    }
+
+    #form_update {
+        .div_inputs {
+            padding: 0 80px;
+
+            .form-group {
+                margin: auto;
+
+                input {
+                    color: $text;
+                    font-size: 16px;
+                    margin-top: 40px;
+
+                    &::-webkit-input-placeholder {
+                        /* WebKit browsers */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+
+                    &:-moz-placeholder {
+                        /* Mozilla Firefox 4 to 18 */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+
+                    &::-moz-placeholder {
+                        /* Mozilla Firefox 19+ */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+
+                    &:-ms-input-placeholder {
+                        /* Internet Explorer 10+ */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+                }
+
+                textarea {
+                    font-size: 16px;
+                    color: $text;
+                    margin-top: 40px;
+                    line-height: 0.9;
+
+                    &::-webkit-input-placeholder {
+                        /* WebKit browsers */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+
+                    &:-moz-placeholder {
+                        /* Mozilla Firefox 4 to 18 */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+
+                    &::-moz-placeholder {
+                        /* Mozilla Firefox 19+ */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+
+                    &:-ms-input-placeholder {
+                        /* Internet Explorer 10+ */
+                        font-size: 16px;
+                        color: $text_placeholder;
+                    }
+                }
+
+                .btn_enviar {
+                    font-size: 15px;
+                    color: $white;
+                    background-color: $blue;
+                    border: 1px solid $blue;
+                    border-radius: 7px;
+                    padding: 7px 35px;
+                    margin: 40px 0;
+                }
+            }
+        }
+
+        .btn-group.bootstrap-select.form-control.show-tick {
+            margin-top: 40px;
+        }
+
+        button.btn.dropdown-toggle.btn-default {
+            padding-left: 0;
+
+            span.filter-option.pull-left {
+                color: $text;
+                font-size: 16px;
+            }
+        }
+    }
+}

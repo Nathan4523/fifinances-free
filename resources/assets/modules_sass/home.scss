@@ -1,0 +1,155 @@
+.content {
+    .content-top-header {
+        background-color: $white;
+        padding: 32px 20px;
+        border-radius: 12px;
+        width: 96.5%;
+        margin: 0px 0 42px 16px;
+        .nubank {
+            color: $white;
+            background-color: $nubank;
+            padding: 8px 33px;
+            border-radius: 15px;
+            margin-right: 30px;
+            &:hover{
+                text-decoration: none;
+                background-color: $nubank_dark;
+                transition: $btn_transition;
+            }
+        }
+        .bradesco {
+            color: $white;
+            background-color: $red_bradesco;
+            padding: 8px 33px;
+            border-radius: 15px;
+            margin-right: 30px;
+            &:hover{
+                text-decoration: none;
+                background-color: $bradesco_dark;
+                transition: $btn_transition;
+            }
+        }
+        .itau {
+            color: $white;
+            background-color: $itau;
+            padding: 8px 33px;
+            border-radius: 15px;
+            margin-right: 30px;
+            &:hover{
+                text-decoration: none;
+                background-color: $itau_dark;
+                transition: $btn_transition;
+            }
+        }
+        .caixa {
+            color: $white;
+            background-color: $caixa;
+            padding: 8px 33px;
+            border-radius: 15px;
+            margin-right: 30px;
+            &:hover{
+                text-decoration: none;
+                background-color: $caixa_dark;
+                transition: $btn_transition;
+            }
+        }
+        .b_brasil {
+            color: $text;
+            background-color: $banco_brasil;
+            padding: 8px 33px;
+            border-radius: 15px;
+            margin-right: 30px;
+            &:hover{
+                text-decoration: none;
+                background-color: $b_brasil_dark;
+                transition: $btn_transition;
+            }
+        }
+        .default_text {
+            color: $text;
+            background-color: transparent;
+            padding: 8px 33px;
+            border-radius: 15px;
+            margin-right: 30px;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+        @media screen and (max-width: 425px) {
+            .nubank {
+                display: table;
+                margin: 15px auto;
+            }
+            .bradesco {
+                display: table;
+                margin: 15px auto;
+            }
+            .itau {
+                display: table;
+                margin: 15px auto;
+            }
+            .caixa {
+                display: table;
+                margin: 15px auto;
+            }
+            .b_brasil {
+                display: table;
+                margin: 15px auto;
+            }
+            .default_text {
+                display: table;
+                margin: 15px auto;
+            }
+        }
+    }
+    .card {
+        border-radius: 18px;
+        min-height: 400px;
+        .header {
+            h2 {
+                text-align: center;
+                color: $text;
+            }
+        }
+        .body {
+            text-align: center;
+            p {
+                color: $text;
+                span {
+                    font-weight: bold;
+                }
+                width: 13em;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                margin: 20px auto 0;
+            }
+            .last_p {
+                margin-bottom: 50px;
+            }
+            .more {
+                background-color: $blue;
+                color: $white;
+                padding: 8px 26px;
+                border-radius: 19px;
+                display: table;
+                margin: 35px auto 0;
+                &:hover {
+                    background-color: $blue_dark;
+                    transition: $btn_transition;
+                    text-decoration: none;
+                }
+            }
+            .content_chart {
+                margin-top: 20%;
+                &:hover {
+                    cursor: none;
+                }
+                .dial {
+                    &:hover {
+                        cursor: none;
+                    }
+                }
+            }
+        }
+    }
+}
